@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="유신고 물리실험실 직류 안정화 전원공급장치 사용법과 안전 수칙">
+  <title>직류 안정화 전원공급장치 | 유신고 물리실험실</title>
+  <style>
+    :root{--navy:#102a43;--blue:#176b87;--paper:#f5f7fa;--ink:#172b4d;--muted:#62748a;--line:#dce4ec;--white:#fff;}
+    *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Pretendard,"Noto Sans KR",system-ui,sans-serif;line-height:1.75}
+    header{background:var(--navy);color:#fff;padding:16px 24px} header a{color:#fff;text-decoration:none;font-weight:700}
+    main{max-width:850px;margin:28px auto;padding:0 20px 54px} .back{display:inline-block;margin-bottom:16px;color:var(--blue);font-weight:750;text-decoration:none;font-size:14px}
+    .panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,4vw,36px);box-shadow:0 8px 24px #102a4308}
+    .eyebrow{font-size:12px;font-weight:800;letter-spacing:.1em;color:var(--blue)} h1{line-height:1.3;letter-spacing:-.035em;margin:8px 0 10px;font-size:clamp(27px,5vw,38px)} .subtitle{color:var(--muted);margin:0 0 20px}
+    .notice{background:#fff8e5;border:1px solid #f3dfaa;border-radius:12px;padding:14px 16px;margin:22px 0;color:#5f512e;font-size:14px} h2{margin:27px 0 8px;font-size:19px;letter-spacing:-.02em} ol,ul{padding-left:23px} li{margin:7px 0} .formula{background:#eef5f8;border-radius:12px;padding:14px 16px;margin-top:12px} .formula strong{display:block;margin-bottom:5px}
+    footer{max-width:850px;margin:0 auto;padding:0 20px 28px;color:var(--muted);font-size:12px}
+    a{overflow-wrap:anywhere}
+  </style>
+</head>
+<body>
+<header><a href="../index.html">← 유신고 물리실험실</a></header>
+<main>
+  <a class="back" href="../index.html">← 장비 목록으로 돌아가기</a>
+  <article class="panel">
+    <div class="eyebrow">PHYSICS LAB · EQUIPMENT GUIDE</div>
+    <h1>직류 안정화 전원공급장치</h1>
+    <p class="subtitle">실험 회로에 조절 가능한 직류 전압과 전류를 공급하는 장비</p>
+    <p>직류 안정화 전원공급장치는 입력 전원을 실험에 필요한 직류로 변환하고, 부하가 변해도 설정한 출력을 유지하도록 조절합니다. 일반적으로 설정 전압을 유지하는 정전압(CV) 모드와 전류가 설정 한도를 넘지 않도록 제어하는 정전류(CC) 모드로 작동합니다.</p>
+    <div class="notice"><strong>안전 우선</strong><br>아래 내용은 기본 안내입니다. 전원·고전압·광원·가연성 물질을 사용하는 실험은 담당 교사의 지시에 따라 진행하고, 실제 장비의 모델별 설명서를 우선하세요.</div>
+    <h2>1. 사용 전 확인</h2>
+    <ul><li>기기 명판의 입력 전압이 실험실 전원과 맞는지 교사에게 확인받습니다. 전원 플러그·케이블·단자에 손상이 없어야 합니다.</li><li>전원 출력이 꺼져 있는지 확인하고, 전압(VOLT/FINE)과 전류 제한(CURRENT)을 실험에서 요구하는 안전한 값으로 설정합니다. 설정값은 교사에게 확인받습니다.</li><li>출력 리드선의 피복 손상 여부와 +, − 단자의 표시를 확인합니다.</li></ul>
+    <h2>2. 기본 사용 순서</h2>
+    <ol><li>전원 출력이 꺼진 상태에서 실험 회로의 전원 입력과 전원공급장치의 +, − 단자를 극성에 맞게 연결합니다.</li><li>회로와 설정 전압·전류 제한을 교사와 함께 다시 확인합니다.</li><li>출력을 켜고 전압을 낮은 값에서 시작해 실험에 필요한 값까지 천천히 올립니다. 전압계와 전류계 표시를 계속 확인합니다.</li><li>CC 표시가 켜지거나 전류가 예상과 다르면 전압을 더 올리지 말고 출력을 끈 뒤 회로와 전류 제한 설정을 확인합니다.</li><li>측정이 끝나면 출력을 끄고 전압을 0으로 낮춘 다음 회로를 분리합니다.</li></ol>
+    <h2>3. 주의 사항</h2>
+    <ul><li>출력이 켜진 상태에서 회로를 바꾸거나 리드선을 옮기지 않습니다.</li><li>극성을 반대로 연결하거나 허용치를 넘는 전압·전류를 공급하면 부품이 손상될 수 있습니다.</li><li>통풍구를 막지 않고, 과열·냄새·이상한 소리가 나면 즉시 출력을 끄고 교사에게 알립니다.</li><li>전류 노브를 어떤 방향으로 얼마나 돌려야 하는지는 기종마다 다를 수 있으므로 해당 기기 설명서와 교사의 설정을 따릅니다.</li></ul>
+    <h2>4. 핵심 공식 및 해석</h2>
+    <div class="formula"><strong>옴의 법칙:</strong> 저항 R(Ω)에 전압 V(V)가 걸리고 전류 I(A)가 흐를 때 <strong>V = I × R</strong>입니다.<br><strong>전력:</strong> 직류 회로에서 공급 전력은 <strong>P = V × I</strong>로 계산할 수 있습니다.</div>
+    <h2>5. 관련 자료</h2>
+    <ul><li><a href="https://smithcollegephysics.github.io/PHY350manual/dc-power-regulation/" target="_blank" rel="noopener noreferrer">직류 전원공급장치의 CV/CC 원리 참고 자료 ↗</a></li></ul>
+  </article>
+</main>
+<footer>유신고 물리실험실 · 사용 전 교사의 안내와 실제 장비의 명판·설명서를 확인하세요.</footer>
+</body>
+</html>
